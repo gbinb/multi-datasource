@@ -14,20 +14,7 @@ import lombok.Setter;
 @Getter
 public class DbConfig {
 
-	/**
-	 * JDBC URL of the database.
-	 */
 	private String url;
-
-	/**
-	 * Login username of the database.
-	 */
 	private String username;
-
-	/**
-	 * Login password of the database.
-	 */
 	private String password;
-
-	private String driverClassName;
 }
